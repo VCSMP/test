@@ -19,7 +19,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1
       with:
-        base-url-path: https://vcsmp.github.io/
+        base-url-path: https://vcsmp.github.io/test/
 
     - name: Output stats
       run: |
